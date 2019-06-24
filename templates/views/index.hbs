@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"  href="/css/style2.css">
+</head>
+<body>
+    
+   <div class="topNav">
+       
+           <ul ><a href="/">Home</a></ul>
+           <ul><a href="../about">About</a></ul>
+           <ul><a href="../help">Help</a></ul>
+            <ul id="redirect"><a href="/">Get Another Result</a></ul>
+
+   </div>
+
+
+<div class="body" style="display: 'none'">
+     <div class="textCol">
+        <p class="sbHead"> <b>Get Weather</b</p>
+         <form>
+             <input placeholder="SEARCH LOCATION" id="sbInput">
+             <button id="sbButton"><b>Submit</b></button>
+         </form>
+     </div>
+ </div>
+
+
+  <div class="body2" style="background-image: url('/img/{{type}}.jpg');">
+<div class="bigBox2" style="opacity: {{opacity}}">
+    <div class="upper2">
+        <span class="a2">
+            <p class="data2" id="pres">pressure</p>
+            <p class="data2" id="uv">uvIndex</p> 
+            <p class="data2"id="vis">visibility</p>
+             <p class="data2"id="rise">sunrise time</p>
+            
+            
+        </span>
+        <span class="a2">
+<p class="data2" id="precip" >precipProbability</p>
+  <p class="data2" id="time">temperature</p>
+   <p class="data2" id="hum">humidity</p>
+    <p class="data2"id="set">sunset time</p>
+            
+   
+    </span>
+        
+    </div>
+    <div class="lower2">
+        <p id="temp2">28&#8451;</p>
+        <p class="details2" id="ab"> 'Partly Cloudy'</p>
+        <p class="details2" id="cd">Jaipur,Rajasthan,India</p>
+    </div>
+</div>
+  </div>
+3
+
+ <div class="footer">
+ 
+<p style="display: inline">Made with <p id="heart">&#x2764</p> by Mansi Sharma</p>
+ </div>  
+</div>
+<script src="/js/app.js"></script>
+</body>
+</html>

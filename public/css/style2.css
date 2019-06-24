@@ -1,0 +1,268 @@
+
+.topNav{
+top:0;
+left: 0;
+position: fixed;
+width: 100%;       
+overflow: hidden;
+background-color: #333333;
+}
+
+ul {
+float: left;
+}
+
+ul a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 25px;
+text-decoration: none;
+font-size: 30px;
+}
+
+.footer{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+overflow:hidden;
+background-color: #333333;
+display: block;
+text-align:  center;
+color: white;
+padding: 20px 25px;
+height: 35px;
+text-emphasis-position: center;
+}
+
+.body{
+display: block;
+color:black;
+background-color: palegoldenrod;
+text-align:  center;
+overflow:hidden;
+left: 0;
+width: 100%;
+height: 100%;
+top: 9.5%;
+bottom: 15%;
+position: fixed;
+background-image: url("/img/defaultimg.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.searchBox{
+    display: block;
+    position: fixed;
+    opacity: 0.25;
+  left: 20%;
+  right: 20%;
+  top: 20%;
+  bottom: 20%;
+  background-color:#BDB76B;
+}
+
+.searchBox:hover{
+    background-color: #202020;
+    opacity: 0.5;
+}
+
+.sbHead{
+    color: white;
+    font-family: Helvetica, Arial,sans-serif;
+    font-size: 70px;
+    text-align: center;
+
+}
+
+.textCol{
+    display: block;
+    position: fixed;
+  left: 20%;
+  right: 20%;
+  top: 30%;
+  bottom: 20%;
+  background-color: transparent;
+}
+
+#sbInput{
+    text-decoration-color: black;
+    padding: 20px 130px;
+    font-family: Helvetica, Arial,sans-serif;
+    font-size: 20px;
+}
+
+#sbButton{
+    color: white;
+    padding: 20px 30px;
+    font-family: Helvetica, Arial,sans-serif;
+    font-size: 20px;
+    background-color: black;
+}
+
+
+.body2{
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 9.5%;
+    bottom: 15%;
+    position: fixed;
+    background-image: "url('/img/day.jpg')";
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+
+    .bigBox2{
+    display: block;
+    background-color: black;
+    left: 25%;
+    right: 25%;
+    top: 15%;
+    bottom: 10%;
+    position: fixed;
+    opacity: 0.5;
+  
+    }
+
+    span.a2{
+       display: inline-block;
+        left:30%;
+        width: 48%;
+        padding: 5px;
+        border: none;    
+        background-color: transparent;
+        overflow:hidden;
+    }
+    
+.lower2{
+    display:block;
+    left:35%;
+    background-color: transparent;
+    overflow:hidden;
+   
+}
+
+#temp2{
+font-family: Helvetica, Arial,sans-serif;
+font-size: 70px;
+color:white;
+text-align: center;
+}
+
+
+.details2{
+font-family: Helvetica, Arial,sans-serif;
+font-size: 30px;
+color:white;
+text-align: center;
+}
+
+
+.data2{
+    font-family: Helvetica, Arial,sans-serif;
+font-size: 30px;
+color:white;
+text-align: center;
+}
+
+#heart{
+    color: red;
+    display: inline;
+    float: inline-end;
+    size: 500%;
+}
+
+.aboutbkg{
+    display: block;
+color:black;
+background-color: palegoldenrod;
+text-align:  center;
+overflow:hidden;
+left: 0;
+width: 100%;
+height: 100%;
+top: 9.5%;
+bottom: 15%;
+position: fixed;
+background-image: url("/img/about background.png");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.myphoto{
+    display: block;
+color:black;
+background-color: transparent;
+text-align:  center;
+overflow:hidden;
+left: 10%;
+width: 30%;
+top: 15%;
+bottom: 35%;
+position: fixed;
+opacity: 0.75;
+
+}
+
+.text{
+    display: block;
+    color:black;
+    background-color: transparent;
+    text-align:  center;
+    overflow:hidden;
+    left: 3%;
+    width: 50%;
+    top: 65%;
+    bottom: 8%;
+    position: fixed;
+    font-family: Helvetica, Arial,sans-serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+    
+}
+
+.helpbk{
+    display: block;
+    color:black;
+    background-color: palegoldenrod;
+    text-align:  center;
+    overflow:hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 9.5%;
+    bottom: 15%;
+    position: fixed;
+    background-image: url("/img/help.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.text2{
+    display: block;
+    color:black;
+    background-color: transparent;
+    text-align:  center;
+    overflow:hidden;
+    left: 48%;
+    width: 50%;
+    top: 15%;
+    bottom: 8%;
+    right: 5%;
+    position: fixed;
+    font-family: Helvetica, Arial,sans-serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    opacity: 0.8;
+    
+}
+
+
+
