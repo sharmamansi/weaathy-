@@ -50,7 +50,7 @@ bottom: 15%;
 position: fixed;
 background-image: url("/img/defaultimg.jpg");
 background-repeat: no-repeat;
-background-size: 100%;
+background-size: cover;
 }
 
 .searchBox{
@@ -113,7 +113,7 @@ background-size: 100%;
     position: fixed;
     background-image: "url('/img/day.jpg')";
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     }
 
     .bigBox2{
@@ -190,7 +190,7 @@ bottom: 15%;
 position: fixed;
 background-image: url("/img/about background.png");
 background-repeat: no-repeat;
-background-size: 100%;
+background-size: cover;
 }
 
 .myphoto{
@@ -241,7 +241,7 @@ opacity: 0.75;
     position: fixed;
     background-image: url("/img/help.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .text2{

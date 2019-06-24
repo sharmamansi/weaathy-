@@ -17,20 +17,6 @@ getForm.addEventListener('submit',(event) => {
     searchtext.textContent = '';
     console.log(location);
  
-const changeText = (element,value,changed) => {
-    element.addEventListener('mouseover',(e) => {
-        e.preventDefault()
-        element.innerHTML = value + ' : ' + changed 
-    })  
-}
-
-const change = (element,changed) => {
-    element.addEventListener('mouseover',(e) => {
-        e.preventDefault()
-        element.innerHTML = changed 
-    })  
-}
-
     fetch('/whether?address=' + location).then((response) => {
         response.json().then((data) => {
     
@@ -56,17 +42,17 @@ const change = (element,changed) => {
 
 
 
-                changeText(a,'rain probability',data.forecast.pp);
-                changeText(b,'pressure',data.forecast.pressure);
-                changeText(c,'UvIndex',data.forecast.uvIndex);
-                changeText(d,'Visibility',data.forecast.visiblity);
-                changeText(e,'Time',data.forecast.time);
-                changeText(f,'Humidity',data.forecast.humidity);
-                change(g,data.forecast.tempreature + '&#8451;');
-                changeText(j,'sunrise',data.forecast.sunrise);
-                changeText(k,'sunset',data.forecast.sunset);
-                change(h,data.forecast.summary);
-                change(i,data.location);
+                a.innerHTML = `rain probability: ${data.forecast.pp}`;
+                b.innerHTML = `Pressure: ${data.forecast.pressure}`;
+                c.innerHTML = `Uv Index: ${data.forecast.uvIndex}`;
+                d.innerHTML = `Visibility: ${data.forecast.visiblity}`;
+                e.innerHTML = `Time: ${data.forecast.time}`;
+                f.innerHTML = `Humidity: ${data.forecast.humidity}`;
+                g.innerHTML = ` ${data.forecast.tempreature}&#8451;`;
+                j.innerHTML = `Sunrise time: ${data.forecast.sunrise}`;
+                k.innerHTML = `Visibility: ${data.forecast.sunset}`;
+                h.innerHTML = `${data.forecast.summary}`;
+                i.innerHTML = `${data.location}`;
               })
             
         })
